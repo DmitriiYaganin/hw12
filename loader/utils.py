@@ -1,3 +1,6 @@
+"""
+Путь сохранения картинки
+"""
 def save_picture(picture) -> str:
     filename = picture.filename
     path = f'./uploads/images/{filename}'
